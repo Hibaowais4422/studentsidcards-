@@ -49,7 +49,7 @@ import Image from 'next/image';
         {/* Right Side: Student Info */}
         <div className="w-4/5 pl-4">
           <p className="text-sm">Student ID No: <span className="font-bold">{props.rollNumber}</span></p>
-          <p className="text-sm">Father's Name: <span className="font-bold">{props.fatherName}</span></p>
+          <p className="text-sm">Father s Name: <span className="font-bold">{props.fatherName}</span></p>
           <p className="text-sm">Class: <span className="font-bold">{props.studentClass}</span></p>
           <p className="text-sm">Valid Upto: <span className="font-bold">{props.validUpto}</span></p>
         </div>
